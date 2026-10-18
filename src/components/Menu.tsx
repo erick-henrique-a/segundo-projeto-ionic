@@ -34,7 +34,7 @@ const Menu: React.FC = () => {
     <IonMenu contentId="main" type="overlay">
       <IonContent>
         <IonList id="inbox-list">
-          <IonListHeader>Inbox</IonListHeader>
+          <IonListHeader>App 2</IonListHeader>
           <IonNote>hi@ionicframework.com</IonNote>
           {appPages.map((appPage, index) => {
             return (
