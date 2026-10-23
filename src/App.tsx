@@ -5,6 +5,7 @@ import Menu from './components/Menu';
 import Page from './pages/Page';
 import Loader from './pages/Loader';
 import Login from './pages/Login';
+import Register from './pages/Register';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -49,6 +50,7 @@ const App: React.FC = () => {
             <Route path="/folder/:name" element={<Page />} />
             <Route path="/loader" element={<Loader/>}/>
             <Route path="/login" element={<Login/>}/>
+            <Route path="/register" element={<Register/>}/>
           </IonRouterOutlet>
         </IonSplitPane>
       </IonReactRouter>
