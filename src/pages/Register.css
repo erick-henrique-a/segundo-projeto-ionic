@@ -1,0 +1,8 @@
+.tela-register {
+  min-height: 100%;
+}
+
+.tela-register form {
+  width: min(100% - 32px, 560px);
+  margin: 24px auto;
+}

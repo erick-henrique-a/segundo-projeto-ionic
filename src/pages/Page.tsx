@@ -25,8 +25,8 @@ const Page: React.FC = () => {
           </IonToolbar>
         </IonHeader>
         <div className='botao-login'>
-          <IonButton routerLink='/login'>Login</IonButton>
-
+          <IonButton color='success'routerLink='/login'>Login</IonButton>
+          <IonButton routerLink='/login'>Cadastrados</IonButton>
         </div>
       </IonContent>
     </IonPage>

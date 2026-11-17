@@ -1,0 +1,16 @@
+.cadastrados-content {
+  --padding-bottom: 24px;
+}
+
+.cadastrados-list {
+  width: min(100% - 32px, 640px);
+  margin: 24px auto;
+}
+
+.cadastrados-list ion-card {
+  margin: 0 0 16px;
+}
+
+.cadastrados-list ion-button {
+  margin: 8px 0;
+}
